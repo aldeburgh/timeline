@@ -3,7 +3,7 @@
 
 /* ICON PATH
 ================================================== */
-@icon-path: 					"icons/";
+@icon-path: 					"https://cdn.knightlab.com/libs/timeline3/latest/css/icons/";
 
 /* TYPEFACE
 ================================================== */
@@ -48,12 +48,12 @@
 
 /* UI COLOR
 ================================================== */
-@ui-background-color:			darken(@color-background, 25);
-@ui-background-color-darker:	darken(@color-background, 50);
-@marker-color: 					darken(@ui-background-color,25);
-@marker-outline-color: 			darken(@ui-background-color,40);
+@ui-background-color:			darken(@color-background, 5);
+@ui-background-color-darker:	darken(@color-background, 10);
+@marker-color: 					darken(@ui-background-color,75);
+@marker-outline-color: 			darken(@ui-background-color,10);
 @marker-selected-text-color: 	@color-background;
-@marker-text-color: 			darken(@marker-color,15);
+@marker-text-color: 			lighten(@marker-color,70);
 @marker-dot-color: 				darken(@marker-color, 33);
 @marker-dot-hover-color: 		darken(@marker-dot-color, 33);
 
@@ -64,6 +64,8 @@
 @major-ticks-line-color: 		darken(@minor-ticks-line-color,10);
 
 @brand-color: 					darken(@ui-background-color,15);
+
+@bpa-orange:					#ff4b23;
 
 @era-color-1: 					@color-theme-complement;
 @era-color-2: 					@color-theme-triad1;
