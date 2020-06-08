@@ -868,7 +868,7 @@
 }
 .tl-mobile .tl-menubar-button:hover {
   background-color: rgba(242, 242, 242, 0.67);
-  color: #737373;
+  color: #404040;
 }
 .tl-mobile .tl-menubar-button:active {
   background: #c34528;
@@ -2690,10 +2690,10 @@
   vertical-align: middle;
   text-align: left;
   text-shadow: none;
-  color: #737373;
+  color: #404040;
 }
 .tl-text p {
-  color: #737373;
+  color: #404040;
 }
 .tl-text h2.tl-headline-title,
 .tl-text h2.tl-headline {
@@ -2707,14 +2707,14 @@
   line-height: 15px;
   font-weight: normal;
   margin: 0 0 3px 0;
-  color: #b3b3b3;
+  color: #808080;
 }
 .tl-text .tl-headline-date small,
 .tl-text h3.tl-headline-date small {
   font-size: 15px;
   line-height: 15px;
   font-weight: normal;
-  color: #b3b3b3;
+  color: #808080;
 }
 .tl-text .tl-text-date {
   display: inline-block;
@@ -2722,7 +2722,7 @@
   font-weight: normal;
   margin-top: 10px;
   font-size: 12px;
-  color: #b3b3b3;
+  color: #808080;
 }
 .tl-full-image-background .tl-text,
 .tl-full-color-background .tl-text,
@@ -3074,7 +3074,7 @@
   -o-user-select: none;
   user-select: none;
   background-color: #FFF;
-  color: #737373;
+  color: #404040;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
